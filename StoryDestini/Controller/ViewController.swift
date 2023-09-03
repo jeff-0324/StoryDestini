@@ -18,6 +18,8 @@ class ViewController: UIViewController {
      override func viewDidLoad() {
          super.viewDidLoad()
          
+         
+        
          setUp()
      }
 
@@ -29,6 +31,7 @@ class ViewController: UIViewController {
     
      //화면 세팅
      func setUp() {
+         
          storyLabel.text = storyBrain.getStoryTitle()
          choice1Label.setTitle(storyBrain.getChoice1Label(), for: .normal)
          choice2Label.setTitle(storyBrain.getChoice2Label(), for: .normal)
